@@ -62,7 +62,7 @@ body {
 .middle {
     /*medidas do middle*/
     float: left;
-    width: 72%;
+    width: 60%;
     /*Definições de borda*/
     margin-top: 20px;
     margin-left: 10px;
@@ -87,7 +87,7 @@ main p {
 .side {
     /*medidas do side*/
     float: right;
-    width: 25%;
+    width: 36%;
     /*Definições de borda*/
     margin-top: 20px;
     margin-right: 10px;
