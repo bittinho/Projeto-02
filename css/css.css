@@ -59,12 +59,23 @@ body {
     background-color: rgba(223, 112, 21, 0.5);
 }
 
+.corpo {
+    display: flex;
+    align-items: center, top;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    background-color: white;
+}
+
 .middle {
     /*medidas do middle*/
     float: left;
     width: 60%;
     /*Definições de borda*/
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 10px;
     border-style: solid;
     border-color: rgba(120, 120, 120, 0.3);
@@ -87,10 +98,12 @@ main p {
 .side {
     /*medidas do side*/
     float: right;
-    width: 36%;
+    width: 33%;
     /*Definições de borda*/
     margin-top: 20px;
+    margin-bottom: auto;
     margin-right: 10px;
+    margin-left: 20px;
     border-style: solid;
     border-color: rgba(120, 120, 120, 0.3);
     border-radius: 10px;
@@ -98,8 +111,6 @@ main p {
 
 ul {
     list-style-type: none;
-    font-family: 'Caveat', cursive;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
     font-size: 30px;
     margin: 0;
     padding: 0;
@@ -107,21 +118,20 @@ ul {
     background-color: transparent;
 }
   
-  li {
-    float: left;
-  }
+li {
+    display: inline;
+}
   
-  li a {
-    display: block;
-    color: rgba(120, 120, 120, 0.3);
+li a {
+    display: inline-flex;
+    color: white;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    border-color: rgb(120, 120, 120);
     border-radius: 10px;
-  }
+}
   
-  /* Muda a cor do link #111 (black) ao passar o mouse */
-  li a:hover {
+/* Muda a cor do link #111 (black) ao passar o mouse */
+li a:hover {
     background-color: rgba(223, 112, 21, 0.5);
-  }
+}
