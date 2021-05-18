@@ -5,21 +5,16 @@ body {
     margin: 0;
     font-family: sans-serif;
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
     /*Atributos Fundo*/
     background-color: black;
-    /*background-image: url(../img/background.jpg);
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
 }
 
 .hero {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
     /*Flexbox Stuff*/
     display: flex;
     justify-content: center;
@@ -64,19 +59,69 @@ body {
     background-color: rgba(223, 112, 21, 0.5);
 }
 
+.middle {
+    /*medidas do middle*/
+    float: left;
+    width: 72%;
+    /*Definições de borda*/
+    margin-top: 20px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: rgba(120, 120, 120, 0.3);
+    border-radius: 10px;
+}
+
 main {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    /*Img Atributos*/
-    background-image: url(../img/background.jpg);
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 main p {
     /*Text decoration*/
-    color: rgb(120, 120, 120);
+    color: rgba(120, 120, 120);
 }
+
+.side {
+    /*medidas do side*/
+    float: right;
+    width: 18%;
+    /*Definições de borda*/
+    margin-top: 20px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: rgba(120, 120, 120, 0.3);
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Caveat', cursive;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(120, 120, 120, 0.3);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-color: rgb(120, 120, 120);
+    border-radius: 10px;
+  }
+  
+  /* Muda a cor do link #111 (black) ao passar o mouse */
+  li a:hover {
+    background-color: rgba(223, 112, 21, 0.5);
+  }
