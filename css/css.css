@@ -7,12 +7,13 @@ body {
     /* Sizing */
     width: 100vw;
     height: 100vh;
-    /*Img Atributos*/
-    background-image: url(../img/background.jpg);
+    /*Atributos Fundo*/
+    background-color: black;
+    /*background-image: url(../img/background.jpg);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 .hero {
