@@ -17,7 +17,7 @@ body {
     height: 98vh;
     /*Atributos Fundo*/
     background-color:black;
-    background-image: linear-gradient(to right, black, rgb(37, 37, 37));
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
 }
     
 .hero {
