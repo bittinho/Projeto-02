@@ -3,7 +3,7 @@
 
 Página em estado primário concluído. Conceito base atingido.
 
-Exemplo de uma página Full Hero Page
+Exemplo de uma página Full Hero Page.
 
 Etapas ainda não concluídas:
  - [ ]  * Menu Sanduiche ativando durante uso responsivo em mobile
