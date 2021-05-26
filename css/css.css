@@ -48,27 +48,23 @@ body {
     margin-bottom: 0.5em;
 }
 
+/*
 .hero .btn {
-    /* Positioning and sizing*/
     display: block;
     width: 200px;
-    /*Padding and margins*/
     padding: 1em;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    /*Text styles*/
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    /*Border styles*/
     border: 3px solid white;
     border-radius: 20px;
-    /*Background styles*/
     background-color: rgba(223, 112, 21, 0.5);
     align-items: center;
 }
-
+*/
 
 .corpo {
     display: flex;
@@ -105,7 +101,7 @@ main {
 .titulocorpo {
     width: auto;
     padding: 10px;
-    background-image: linear-gradient(to right, black, rgb(43, 42, 42));
+    background-image: linear-gradient(to right, black, rgb(43, 43, 42));
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -131,6 +127,15 @@ main {
     display: grid;
     grid-gap: 1rem;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, black, rgb(68, 67, 67));
+    color: white;
+    border-radius: 5px;
+}    
 
 ul {
     list-style-type: none;

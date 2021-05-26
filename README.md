@@ -8,7 +8,7 @@ Exemplo de uma página Full Hero Page.
 Etapas ainda não concluídas:
  - [ ]  * Menu Sanduiche ativando durante uso responsivo em mobile
  - [ ] * Modal Box para os links ou alguma nota de atualização ao abrir o site
- - [ ]  * Inserir cabeçalho nos itens que estão no grid
+ - [x]  * Inserir cabeçalho nos itens que estão no grid
  - [ ]  * Inserir imagens no grid para avaliar o comportamento do mesmo e se mantem responsivo
  - [ ]  * Link para as redes sociais
  - [ ]  * Melhorar a barra de navegação(links) da pagina
