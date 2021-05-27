@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfólio Daniel P. Bittencourt</title>
 </head>
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Home</a>
+        <a href="#" class="sobre">Sobre Mim</a>
+        <a href="#" class="contato">Contato</a>
+        <a href="javascript:void(0)," class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>    
+
     <section class="hero">
         <div class="hero-inner">
             <h1>Daniel P. Bittencourt</h1>
-            <menu>
-               <ul>
-                   <li><a href="#">Sobre Mim</a></li>
-                   <li><a href="#">Contato</a></li>
-               </ul> 
-            </menu>
-            <!--<a href="https://github.com/bittinho" class="btn">- GitHub -</a>-->
+
         </div>
     </section>
     <section class="corpo">
@@ -39,5 +41,16 @@
     <footer>
         Copyright &copy; 2021 - by Daniel P. Bittencourt
     </footer>
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
 </body>
 </html>
